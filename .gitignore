@@ -1,1 +1,3 @@
 example/rootfs.tar
+*.iml
+.idea/

@@ -2,6 +2,5 @@
 build:
 	docker build -t rootbuilder .
 
-release:
-	docker tag rootbuilder progrium/rootbuilder
-	docker push progrium/rootbuilder
+tag:
+	docker tag rootbuilder patrickauld/rootbuilder
